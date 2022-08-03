@@ -13,8 +13,13 @@ body{
 }
 
 img{
+    height: 5vh;
+    width: 5vh;
     border-radius: 50%;
     border: 2px solid violet;
+    float: left;
+    margin-right:15px;
+    
 }
 
 .testimonials{
@@ -33,10 +38,11 @@ img{
     padding: 30px 30px
 }
 
-   
+
 h3{
     font-size: 15px;
 }
+
 h4{
     opacity: 50%;
 }
