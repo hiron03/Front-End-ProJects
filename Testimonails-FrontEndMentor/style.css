@@ -84,7 +84,7 @@ p{
     color: white;
 }
 
-@media(max-width:600px){
+@media(max-width:375px){
     .testimonials {
        grid-template-columns: 1fr;
        width: 100%;
