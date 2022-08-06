@@ -12,17 +12,10 @@ body{
     font-size : 14px;
 }
 
-img{
-    height: 5vh;
-    width: 5vh;
-    border-radius: 50%;
-    border: 2px solid violet;
-    float: left;
-    margin-right:15px;
-    
-}
-
 .testimonials{
+    width:78vw ;
+    margin-left:11vw ;
+    margin-top:4vh ; 
     
     display: grid;
     grid-template-areas: 
@@ -30,7 +23,16 @@ img{
     'wsc dbc dbc wlc'
     ;
     gap: 20px 25px;
-      
+}
+
+img {
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    border: 2px solid violet;
+    float: left;
+    margin-right: 15px;
+
 }
 
 .card{
@@ -93,10 +95,9 @@ p{
 @media(max-width:375px){
     .testimonials {
        grid-template-columns: 1fr;
-       width: 100%;
-       
+       width: 100%;    
     }
-
+  
     .purple-card {
             grid-column: 1;
             grid-row:1/ span 2 ;
@@ -118,7 +119,7 @@ p{
         }
     .darkblue-card {
             grid-column: 1;
-            grid-column: 7/span 2;
+            grid-row: 7/span 2;
     }
 
 }   
